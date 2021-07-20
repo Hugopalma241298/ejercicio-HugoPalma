@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen Hugo Palma</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:ital,wght@1,100&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <script src="script.js"></script>
+    <div class="container">
+        <div class="columns-12">
+            <div class="space"></div>
+            <div class="row content-final-top ">
+                <button class="new-message">
+                    <img src="icons/icons8-plus-math-24.png" alt="Text">
+                    <span>Nuevo Mensaje</span> </button>
+            </div>
+            <div class="space"></div>
+            <div class="row content-final-top ">
+                <img src="icons/icons8-search.svg" aria-hidden="true">
+                <button class="search-button">Buscar</button>
+            </div>
+        </div>
+        <div class="space-medium"></div>
+        <div class="row">
+            <div class="columns-4">
+                <div class="card size-cards" >
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="columns-4 stats">Enviados</div>
+                            <div class="columns-5 color-line-blue">_______________</div>
+                            <div class="columns-3 stats">100</div>
+                            <div class="columns-4  stats">Recibidos</div>
+                            <div class="columns-5  color-line-green">_______________</div>
+                            <div class="columns-3 stats">80</div>
+                            <div class="columns-4 stats">No recibidos</div>
+                            <div class="columns-5 color-line-red">_______________</div>
+                            <div class="columns-3 stats">20</div>
+                            <div class="columns-4 stats">Respondidos</div>
+                            <div class="columns-5 color-line-orange" >_______________</div>
+                            <div class="columns-3 stats">50</div>
+                            <div class="columns-4">Efectividad</div>
+                            <div class="columns-5"></div>
+                            <div class="columns-3">80%</div>
+    
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="columns-2">
+                <div class="card size-cards">
+                    <img class="align-self-center"  src="icons/sent.svg" alt="Card image cap">
+                        <div class="row">
+                            <div class="columns-12 margin-title-cards" >
+                                <h5 class="message-send">Mensajes Enviados</h5>
+                                <h5 class="title-percent-done">100</h5>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="columns-2">
+                <div class="card  size-cards">
+                    <img class="align-self-center"  src="icons/received.svg" alt="Card image cap">
+                    <div class="columns-12 margin-title-cards">
+                        <h5  class="font-size-title-h5">Mensajes Recibidos</h5>
+                        <h5 class="title-percent">80 <span class="span-card-green">80%</span></h5>
+
+                    </div>
+                </div>
+            </div>
+            <div class="columns-2">
+                <div class="card  size-cards">
+                    <img class="align-self-center"  src="icons/not_received.svg" alt="Card image cap">
+                    <div class="columns-12 margin-title-cards" >
+                        <h5 class="font-size-title-h5">Mensajes no Recibidos</h5>
+                        <h5 class="title-percent">20 <span class="span-card-red">20%</span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="columns-2">
+                <div class="card  size-cards">
+                    <img class="align-self-center"  src="icons/answered.svg" alt="Card image cap">
+                    <div class="columns-12 margin-title-cards" >
+                        <h5 class="font-size-title-h5">Mensajes respondidos</h5>
+                        <h5 class="title-percent">50 <span class="span-card-orange">50%</span></h5>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="space-medium"></div>
+        <div class="row">
+            <div class="columns-12">
+                <div class="card-table size-card-table">
+                    <div class="row">
+                        <div class="columns-6">
+                            <div class="card-body">
+                                <h5 class="card-title">Listar mensajes</h5>
+                                <div class="space-medium"></div>
+
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Titulo <img src="icons/icons8-expand-arrow-24.png" alt="Text"></th>
+                                            <th>Etiquetas <img src="icons/icons8-expand-arrow-24.png" alt="Text"></th>
+                                            <th>Fecha de Creacion <img src="icons/icons8-expand-arrow-24.png" alt="Text"></th>
+                                            <th>Estado <img src="icons/icons8-expand-arrow-24.png" alt="Text"></th>
+                                            <th>Efectividad <img src="icons/icons8-expand-arrow-24.png" alt="Text"></th>
+                                            <th>Acciones <img src="icons/icons8-expand-arrow-24.png" alt="Text"></th>
+                                        </tr>
+                                    </thead>
+                                    <div class="space"></div>
+                                    <tbody>
+                                        <td>Nuevo Modelo</td>
+                                        <td> <button class="buttons-table">Compras</button> <button  class="buttons-table">Ventas</button> </td>
+                                        <td>18/10/2020 02:30 pm</td>
+                                        <td>Verificado  <img src="icons/verified.svg" alt="Text"></td>
+                                        <td>80%</td>
+                                        <td class="text-underline">Ver Mensaje</td>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
